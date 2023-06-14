@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  .animal {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  .animal img {
+    float: left;
+    margin-right: 10px;
+    max-width: 200px;
+  }
+  
+  .animal h2 {
+    margin: 0;
+  }
+  
+  .animal p {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  .sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+
+  /* Estilos CSS adicionais para tornar o menu lateral responsivo */
+  @media only screen and (max-width: 600px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+
+    .content {
+      margin-left: 0;
+    }
+  }
